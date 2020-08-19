@@ -6,8 +6,7 @@ import Textfield from "./Components/Textfield/Textfield";
 function App() {
   return (
     <div className="App">
-      <Textfield titulo="Nombre" />
-      <Textfield titulo="Apellido" />
+
     </div>
   );
 }
