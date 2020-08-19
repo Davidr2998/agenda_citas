@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.o-input-container {
+  margin: 0.3125rem 0 0.3125rem 0;
+}
+
+input {
+  outline: none;
+  border-color: transparent;
+  background: #eeeeee;
+  width: 12.5rem;
+  height: 1.875rem;
+  font-size: 0.9375rem;
+  font-family: "Roboto";
+  border-bottom: 2px solid #bababa;
+  transition: ease-in-out 0.15s;
+}
+
+input:focus {
+  border-bottom: 2px solid #fe2e2e;
+  transition: ease-in-out 0.25s;
+}
+
+p {
+  margin: 0;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-family: "Roboto";
+}
